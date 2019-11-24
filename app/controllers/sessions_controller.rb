@@ -14,7 +14,6 @@ class SessionsController < ApplicationController
   private
 
   def auth
-    u = "1"
     request.env['omniauth.auth']
   end
 end
